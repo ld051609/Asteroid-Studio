@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, TouchableOpacity, ScrollView, SafeAreaView, Linking } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView, SafeAreaView, Linking, Image } from 'react-native';
 import { Calendar } from 'react-native-calendars';
 import Config from 'react-native-config';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
@@ -87,8 +87,8 @@ const MyCalendar = () => {
                         {asteroids && (asteroids.map((asteroid) => {
                             return (
                                 <Swipeable
-                                    key={asteroid.id}
-                                    renderRightActions={() => renderRightActions(asteroid.link)}
+                                key={asteroid.id}
+                                renderRightActions={() => renderRightActions(asteroid.link)}
                                 >
                                     <View style={{ display: 'flex', flexDirection: 'column', margin: 10, padding: 10, backgroundColor: '#e6f0ff', borderRadius: 10 }}>
                                         <View style={{ backgroundColor: '#0047b3', padding: 3, borderRadius: 20, display: 'flex', flexDirection:'row', alignItems:'center'}}>
@@ -103,6 +103,7 @@ const MyCalendar = () => {
                                 </Swipeable>
                             )
                         }))}
+                        <Image source={require('../assets/calendar.png')} style={{ width: 400, height: 400, alignSelf: 'flex-end'}} />
                     </View>
                 </ScrollView>
             </SafeAreaView>
