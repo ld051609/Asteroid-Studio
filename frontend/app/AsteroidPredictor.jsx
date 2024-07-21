@@ -1,4 +1,4 @@
-import { View, Text, TextInput, TouchableOpacity, Linking , Alert, Image} from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Linking , Alert, Image, ScrollView, SafeAreaView} from 'react-native';
 import React, { useEffect, useState } from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Config from 'react-native-config';
@@ -68,7 +68,9 @@ const AsteroidPredictor = () => {
   }
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f5f5f5', padding: 20 }}>
+    <ScrollView>
+
+    <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f5f5f5', padding: 20 }}>
       <Text style={{ fontSize: 26, fontWeight: 'bold', marginBottom: 20 }}>Asteroid Predictor</Text>
       <Image source={require('../assets/asteroid.png')} style={{ width: 400, height: 360, margin: 50 }} />
       <View style={{ flexDirection: 'row', alignItems: 'center', width: '80%' }}>
@@ -88,7 +90,8 @@ const AsteroidPredictor = () => {
           <Text style={{ fontSize: 18, color: 'white' }}>Play the Audio</Text>
         </TouchableOpacity>
       }
-    </View>
+    </SafeAreaView>
+    </ScrollView>
   );
 };
 

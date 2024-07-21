@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './sona-story.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './sona-story2.json'
 def normalize(data):
     """Normalize data to the range [0, 1]."""
     min_val = np.min(data)
