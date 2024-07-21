@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hunger-chatbot",
+  "private_key_id": "3619b3d45648dd854f209d5693b76b9ba748bb46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCs8WcjF/gcUFgV\nd96E40KwyHI+6Nq3osApKBQyEuFx+J+NtI40m+s+mCJwJD71E+2U+idIA2EQtq0X\nPK9h29zABiKQHpgCgH06rt0zK+vnVd6mH3QeFZ+iuXO0x5Tj2pjh4sYq5jKtvfWQ\n5TasTwEORqaiJCgCHEeotBd9ygbAdrS+Fq8yoeHaVlm9YjLn61oWpJqZZblZ76Zg\nUeDrZmrksUOlsv1wMe7xxNhCBKxkURqv7psOLgg+DULEpLphufPUrV83laXnrW7N\ntf8h7G0yrFRfKQD9Ji4JYGSzMWoBUkI+ba6nydTr4YOcC4p8h7yMFgvD8ZUkEJbt\n65gLKtEdAgMBAAECggEAC83lYYiVC4+zV3HJWy4s4uann6Iiraaa8aQ17q4Ju88B\nyvkQPMiIr8rQDPH4Zx9/V6wUas6qPSsO2PdwLCCG6odwrAAelYsiIROG7yN4FF/w\n1MtwUE5fCUsZufTmdX/57+8b4hk4y9GbtZJjnzK8SnZpkMchgPVfscTrFo+n0tKa\nlezUfik869AnIEgQj9eMaEswQ3T+zIfH3I5dCNbG15KtG+6cXUpe7RQP07nKln8N\niu3mXpv2Rnnr+jvGyWsAVwgFXuAr0FyCXlJQEzhCyAKvj0juPY+32u+NmkoZ2WvM\nfvouh+lGn0zT2wsDZBwz8OePb4OBF/rU5odrbSI7cQKBgQDkDyXRmonw6Q8aUmPb\ns/afSAFL+R4ueRyh9MPTvdrnmF/+6te+bTuflxAEobEKycvEhhWtve2mH6NWAc18\nmJunGA45WZXovd0QsODFAbvtWU7E44AwoCFus60rCkddwgBO/pmNey+2HxvL81xo\no5wy+7n8udY6K4mWhnIqu+4akQKBgQDCIZcBns4CxDTH0Bs8aSiM+ch9C3u8LfqV\nQxEWKmTUeMw2+XPUnTIEIS1xP1ENZHW9SpJGYC9kkaIctc5/miyMoZbBUlQ6EF8V\ndKemZrvS1H0TTDA+vpFg2uRIXMYK9Vt7y+L65Z7TUx7Xwe384nUn9BwdSQie+WPa\n/6gg5C5bzQKBgAfLfL9tSMmzLZD4v/ECdat8Co9ONHniKdhfRVI3awP/cUiFPlqD\n4UXTI/kEjciQnSZabuNBWp4S9sI5zYw0qx1K9TGAnl8WHjgz03roVEQIiWixXfBL\niNj/yyttboMF3nzUturfCwJujcSqzL3G2c/kSrcYovnaAxnh/oT3Z2wBAoGABPSo\njzEHn0h09HjaiSNCFr81oAOQCBDAadkJcaBpbIcc53Zcv5u3sCVMrKxqHEZpPwjN\nTSCddRrGoab+e4FrC7gASjUY01ahpsGQmg3bU5l7C+gQ/zkMKwXLeBFuOM9ko3dj\n9vWvpUNk8SsRMThyty9jHFhF8RD6vJd0KkrI6C0CgYEAmNbFSAb97p+LyKLBjkc5\n/NZV+W5yTpybcS0iiyM9BEY8ezabSsYCnOoZb9lg26S4fsaSM7UtfZ+moRF/OoDC\n0cbl1k+1FS0lo5nYgBbILPX5Yp/RU46JwynugzSjgJxh0mIp/LtPsGJ+YtB2bo8+\n9YrAaeDwlPU3ALb1fuwIBLM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sona-story@hunger-chatbot.iam.gserviceaccount.com",
+  "client_id": "107419643570771745753",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sona-story%40hunger-chatbot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
